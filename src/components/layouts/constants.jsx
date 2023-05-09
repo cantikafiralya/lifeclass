@@ -14,6 +14,10 @@ export const MENU_ITEM = [
     label: <Link to="/form-crud-exp">Pegawai</Link>,
     key: "/form-crud-exp",
   },
+  {
+    label: <Link to="/modal">Keuangan</Link>,
+    key: "/modal",
+  },
   // {
   //   label: <Link to="/portfolio">Portfolio</Link>,
   //   key: "/portfolio",

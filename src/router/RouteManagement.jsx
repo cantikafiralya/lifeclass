@@ -14,6 +14,7 @@ import Portfolio from "../pages/portfolio/Portfolio";
 import ProductPage from "../pages/productPage/ProductPage";
 import Contentful from "../pages/contentful/Contentful";
 import ProductDetail from "../pages/productPage/components/ProductDetail";
+import ModalPage from "../pages/modalPage/modalPage";
 
 const RouteManagement = () => {
   const token = localStorage.getItem("token");
@@ -46,6 +47,8 @@ const RouteManagement = () => {
             <Route path="/product" element={<ProductPage />} />
             <Route path="/product/:uuid" element={<ProductDetail />} />
             <Route path="/content" element={<Contentful />} />
+            <Route path="/modal" element={<ModalPage />} />
+
           </Routes>
         </LayoutComponent>
       )}
