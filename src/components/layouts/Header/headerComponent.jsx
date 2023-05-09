@@ -77,7 +77,7 @@ const onSearch = (value) => console.log(value);
                 <Link to="/">
                     <img className="alta-logo" src={lifeclass} alt="" srcset="" />
                 </Link>
-                <Search placeholder="Search product" onSearch={onSearch} style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                <Search placeholder="Search data" onSearch={onSearch} style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                  />
                               <Menu
                 className="nav-link"
