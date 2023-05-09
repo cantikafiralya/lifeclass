@@ -1,0 +1,26 @@
+
+
+.company {
+    font-family: "Gloock", serif;
+    font-weight: 700;
+    color: rgb(125, 125, 125);
+    float: "left";
+    width: max-content;
+    height: 64px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .alta-logo{
+    height: 64px;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .nav-link {
+    color: #2A2F4F;
+  }
+  
+  
