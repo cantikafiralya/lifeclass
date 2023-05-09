@@ -46,15 +46,15 @@ const ModalPage = () => {
         <Form form={form}>
           <Form.Item
             name="type"
-            label="Type"
-            rules={[{ required: true, message: 'Please enter a type' }]}
+            label="Jumlah"
+            rules={[{ required: true, message: 'Tolong isi jumlahnya!' }]}
           >
             <InputNumber />
           </Form.Item>
           <Form.Item
             name="amount"
-            label="Amount"
-            rules={[{ required: true, message: 'Please enter an amount' }]}
+            label="Harga"
+            rules={[{ required: true, message: 'Tolong isi harganya!' }]}
           >
             <InputNumber />
           </Form.Item>
